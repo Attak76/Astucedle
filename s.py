@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 color = ["#008F5C", "#E62B27", "#F4C500"]  # vert, rouge, violet
 
-with open('database.json', 'r') as file:
+with open('bdd.json', 'r') as file:
     database = json.load(file)
     keys = database.keys()
 
@@ -14,7 +14,7 @@ def get_route():
     global keys, database
     try:
         guess = request.args.get('guess')
-        solution = "T1"
+        solution = database["T1"]
 
         if not guess:
             return jsonify({"error": "No input"}), 400
@@ -47,7 +47,7 @@ def get_route():
             c3 = color[1]
 
         c = 0
-        for i in range(len(template["Communes"])):
+        for i in range(len(template["Communes"])):  
             if template["Communes"][i] == solution["Communes"][i]:
                 c += 1
         if c / len(template["Communes"]) == 1:
@@ -60,16 +60,16 @@ def get_route():
             g4 = template["Communes"]
             c4 = color[2]
 
-        if template["Nombre d'arrêts"] > solution["Nombre d'arrêts"]:
-            g5 = template["Nombre d'arrêts"]
+        if template["Nombre d'arrets"] > solution["Nombre d'arrets"]:
+            g5 = template["Nombre d'arrets"]
             c5 = color[2]
             e5 = "sup"
-        elif template["Nombre d'arrêts"] < solution["Nombre d'arrêts"]:
-            g5 = template["Nombre d'arrêts"]
+        elif template["Nombre d'arrets"] < solution["Nombre d'arrets"]:
+            g5 = template["Nombre d'arrets"]
             c5 = color[2]
             e5 = "inf"
         else:
-            g5 = template["Nombre d'arrêts"]
+            g5 = template["Nombre d'arrets"]
             c5 = color[0]
             e5 = "eq"
 
@@ -86,7 +86,7 @@ def get_route():
             "Terminus 1": {"value": g2, "couleur": c2},
             "Terminus 2": {"value": g3, "couleur": c3},
             "Communes": {"value": g4, "couleur": c4},
-            "Nombre d'arrêts": {"value": g5, "couleur": c5},
+            "Nombre d'arrets": {"value": g5, "couleur": c5},
             "Interval": {"value": g6, "couleur": c6}
         })
 

@@ -3,91 +3,91 @@
       "Terminus 1": "Stade Diochon",
       "Terminus 2": "Plaine de la Ronce",
       "Communes": ["Petit-Quevilly", "Sotteville-lès-Rouen", "Rouen", "Bois-Guillaume"],
-      "Nombre d'arrêts": 31,
+      "Nombre d'arrets": 31,
       "Interval": "8-9"
     },
     "F2": {
       "Terminus 1": "La Vatine Centre Commercial",
       "Terminus 2": "Tamarelle",
       "Communes": ["Bihorel", "Rouen", "Mont-Saint-Aignan"],
-      "Nombre d'arrêts": 30,
+      "Nombre d'arrets": 30,
       "Interval": "8-9"
     },
     "F3": {
       "Terminus 1": "Hôtel de Ville Sotteville",
       "Terminus 2": "Tourville",
       "Communes": ["Sotteville-lès-Rouen", "Saint-Etienne-du-Rouvray", "Oissel", "Tourville-la-rivière"],
-      "Nombre d'arrêts": 32,
+      "Nombre d'arrets": 32,
       "Interval": "7-9"
     },
     "F4": {
       "Terminus 1": "Mont Riboudet",
       "Terminus 2": "Petit-Couronne",
       "Communes": ["Rouen", "Petit-Quevilly", "Grand-Quevilly", "Petit-Couronne"],
-      "Nombre d'arrêts": 25,
+      "Nombre d'arrets": 25,
       "Interval": "10-12"
     },
     "F5": {
       "Terminus 1": "Théâtre des Arts",
       "Terminus 2": "Lycée Galilée",
       "Communes": ["Bois-Guillaume", "Rouen"],
-      "Nombre d'arrêts": 27,
+      "Nombre d'arrets": 27,
       "Interval": "12-30"
     },
     "F6": {
       "Terminus 1": "Les Bouttières",
       "Terminus 2": "Gare de Saint-Etienne",
       "Communes": ["Grand Couronne", "Saint-Étienne-du-Rouvray", "Petit Couronne", "Grand-Quevilly"],
-      "Nombre d'arrêts": 38,
+      "Nombre d'arrets": 38,
       "Interval": "6-8"
     },
     "F7": {
       "Terminus 1": "Hôtel de Ville Sotteville",
       "Terminus 2": "Campus Mont-Saint-Aignan",
       "Communes": ["Sotteville-lès-Rouen", "Rouen", "Mont-Saint-Aignan"],
-      "Nombre d'arrêts": 28,
+      "Nombre d'arrets": 28,
       "Interval": "7-12"
     },
     "F8": {
       "Terminus 1": "Tamarelle",
       "Terminus 2": "Lycée du Cailly",
       "Communes": ["Bihorel", "Rouen", "Mont-Saint-Aignan", "Déville-lès-Rouen"],
-      "Nombre d'arrêts": 28,
+      "Nombre d'arrets": 28,
       "Interval": "10-12"
     },
     "F9": {
       "Terminus 1": "Champ de Foire",
       "Terminus 2": "Théâtre des Arts",
       "Communes": ["Petit-Couronne", "Grand-Quevilly", "Rouen"],
-      "Nombre d'arrêts": 32,
+      "Nombre d'arrets": 32,
       "Interval": "10-15"
     },
     "T1": {
       "Terminus 1": "Mont aux Malades",
       "Terminus 2": "C.H.U. Charles Nicolle",
       "Communes": ["Rouen", "Mont-Saint-Aignan"],
-      "Nombre d'arrêts": 15,
+      "Nombre d'arrets": 15,
       "Interval": "3-6"
     },
     "T2": {
       "Terminus 1": "Tamarelle",
       "Terminus 2": "Mairie V.Schoelcher",
       "Communes": ["Rouen", "Deville-lès-Rouen"],
-      "Nombre d'arrêts": 30,
+      "Nombre d'arrets": 30,
       "Interval": "5-8"
     },
     "T3": {
       "Terminus 1": "Monet",
       "Terminus 2": "Dérecu-Lavoisier",
       "Communes": ["Canteleu", "Rouen", "Darnétal"],
-      "Nombre d'arrêts": 26,
+      "Nombre d'arrets": 26,
       "Interval": "6-8"
     },
     "T4": {
       "Terminus 1": "Zénith-Parc Expo",
       "Terminus 2": "Marie Curie - MTC",
       "Communes": ["Rouen", "Petit-Quevilly", "Grand-Quevilly"],
-      "Nombre d'arrêts": 21,
+      "Nombre d'arrets": 21,
       "Interval": "6-8"
     }
   }
