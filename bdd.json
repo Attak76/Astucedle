@@ -39,7 +39,7 @@
       "Terminus 2": "Gare de Saint-Etienne",
       "Communes": ["Grand Couronne", "Saint-Étienne-du-Rouvray", "Petit Couronne", "Grand-Quevilly"],
       "Nombre d'arrêts": 38,
-      "Interval": "6.5-8.5"
+      "Interval": "6-8"
     },
     "F7": {
       "Terminus 1": "Hôtel de Ville Sotteville",
