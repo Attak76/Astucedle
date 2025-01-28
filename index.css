@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+
+  --primary-color: #00539f;
+  --secondary-color: #01407b;
+  --title-color: #1d1d1b;
+  --message-color: #979DAC;
+  --border-color: #ccc;
+  --alert-color: rgb(91, 9, 9);
+  --background-color: rgba(255, 255, 255, 0.8);
+  --background-color2: white;
+  --background-image: url('./Components/Assets/images/login-background-day.jpg');
+
+  --night-primary-color: #340b66;
+  --night-secondary-color: #3d1172;
+  --night-title-color: #ffffff;
+  --night-message-color: #ffffff;
+  --night-border-color: #573384;
+  --night-alert-color: #cf6679;
+  --night-background-color: rgba(20, 20, 20, 0.8);
+  --night-background-color2: #272330;
+  --night-background-image: url('./Components/Assets/images/login-background-night.jpg');
+}
+
+body.night-mode {
+  --primary-color: var(--night-primary-color);
+  --secondary-color: var(--night-secondary-color);
+  --title-color: var(--night-title-color);
+  --message-color: var(--night-message-color);
+  --border-color: var(--night-border-color);
+  --alert-color: var(--night-alert-color);
+  --background-color: var(--night-background-color);
+  --background-color2: var(--night-background-color2);
+  --background-image: var(--night-background-image);
+}
