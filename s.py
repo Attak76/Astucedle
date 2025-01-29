@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
-
+CORS(app)
 color = ["#008F5C", "#E62B27", "#F4C500"]  # vert, rouge, violet
 
 with open('bdd.json', 'r') as file:
@@ -95,4 +96,4 @@ def get_route():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port = 5000, debug=True)
